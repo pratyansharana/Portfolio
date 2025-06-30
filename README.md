@@ -40,7 +40,7 @@ This portfolio reflects my journey, values, and aspirations — designed and dev
 
 ## 📫 Let's Connect
 
-- 📧 Email: your.email@example.com  
+- 📧 Email: pratyanshrana1@gmail.com 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/pratyansha-rana-99699b306/)  
 - 🐙 [GitHub](https://github.com/pratyansharana)
 
