@@ -110,6 +110,41 @@
     #contact-icons a:hover svg {
       transform: scale(1.2);
     }
+    .phone-frame {
+  width: 375px;
+  height: 812px;
+  border: 16px solid #333;
+  border-radius: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background: white;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.notch {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 210px;
+  height: 30px;
+  background: #000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  z-index: 2;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
   </style>
 </head>
 <body>
@@ -146,35 +181,42 @@
       <div class="card">Java</div>
       <div class="card">HTML & CSS</div>
       <div class="card">React Native</div>
+      <div class="card">Firebase</div>
+      <div class="card">Python</div>
       <div class="card">Flutter</div>
       <div class="card">Python</div>
     </div>
   </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-      <div class="card">
-        <h3>Counter App (React Native)</h3>
-        <p>A simple Click counter built using React Native on Expo Snack.<br>
-            <a href="https://github.com/pratyansharana/React-Native-counterApp" target="_blank" rel="noopener noreferrer">Have a look </a>
-        </p>
-      </div>
+<section id="projects" style="text-align: center; padding: 40px; background-color: #fafafa;">
+  <h2 style="margin-bottom: 30px; font-size: 2rem;">My Projects</h2>
+<div class="projects" style="margin-top: 40px;">
+  <div class="card">
+    <h3>Counter App (React Native)</h3>
+    <p>
+      A simple Click counter built using React Native.<br>
+      <a href="counter.html">View Details</a>
+    </p>
+  </div>
 
-      <div class="card">
-        <h3>To-Do List App (React Native)</h3>
-        <p>A simple To-Do list app made with react native.<br>
-            <a href="https://github.com/pratyansharana/to-do-react-native" target="_blank" rel="noopener noreferrer">Have a look </a>
-        </p>
-      </div>
-      
-      <div class="card">
-        <h3>Research Paper on Quantum Key Distribution protocol</h3>
-        <p><a href="https://github.com/pratyansharana/Modified-BB84" target="_blank" rel="noopener noreferrer">Have a look</a></p>
-      </div>
-      
-    </div>
-  </section>
+  <div class="card">
+    <h3>To-Do List App (React Native)</h3>
+    <p>
+      A basic To-Do app with add/delete functionality.<br>
+      <a href="todo.html">View Details</a>
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Quantum Key Distribution Research</h3>
+    <p>
+      Proposal to improve BB84 using topological qubits.<br>
+      <a href="research.html">View Details</a>
+    </p>
+  </div>
+</div>
+
+</section>
 
    <section id="contact">
     <h2>Contact</h2>
